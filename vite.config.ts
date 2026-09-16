@@ -8,6 +8,7 @@ const rootDir = path.dirname(fileURLToPath(import.meta.url));
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/minecraft-invitation/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
